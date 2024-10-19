@@ -1,0 +1,105 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    /*
+
+    int n; ///pe int avem numere de maxim 2 miliarde aproximativ!
+    cin>>n; ///punem in memorie
+    cout<<n<<endl; ///ni l afiseaza pe ecran
+
+    cout<<2+3; ///la cout avem variabile, expresii sau calcule
+ddbdsbxdfnbxdfndxzfnxdzf
+    */
+
+    //int a,b;
+    //cin>>a;
+    //cin>>b;
+    //cin>>a>>b;
+   // cout<<a+b<<" "<<a-b<<" "<<a*b<<" "<<a/b; ///impartirea se face intreaga
+    /*
+        15/2=7
+        21/4=5
+        101/10=10
+        123/10=12
+        985/10=98
+
+        ordinea operratiilor () a^b /*% +-
+    */
+    //cout<<a%b; ///cu impartire la 10 tai ultima cifra, in schimb % (modulo) 10  are ca rezultat ultima cifra di nr
+    //cin>>x>>y;
+    //cout<<(x+y)%10;
+
+    ///IF
+    // == verifica egaliate 2=3 =>  2==3
+
+
+    /*
+
+        if( conditie )
+        {
+            ...
+        }
+        else if( alta conditie)
+        {
+            ...
+        }
+        else if(c3)
+        {
+            ... instructiuni
+        }
+        else if(c4)
+        {
+            ...
+        }
+        ...
+        else
+        {
+            ...
+        }
+
+        2==3 are val 0
+        a==a are val 1
+        a==b <=> a este egal cu b
+
+        < > == >= <=
+
+        2>3 are rez 0
+        5<=7 are rez 1
+
+        c1: x>=5
+        c2: x<=7
+
+        c: c1 && c2 ==1 <=> c1==1 si c2 == 1
+
+        c: c1 || c2
+
+        !c1: x<5
+        !c2: x>7
+
+        x<3 => x>=3
+
+        !(c1==c2) c1!=c2
+        !(c1!=c2) c1==c2
+        !(c1 && c2) => !c1 || !c2
+        !(c1 || c2) => !c1 && !c2
+
+        x>=5 && x<=7 => x<5 || x>7
+        a<0 || a!=7 => a>=0 && a==7
+
+    */
+
+    int a,b,x;
+    cin>>a>>b>>x;
+    if(a<=x && b>=x)
+    {
+        cout<<"DA";
+    }
+    else
+    {
+        cout<<"NU";
+    }
+    return 0;
+}
